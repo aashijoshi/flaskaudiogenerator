@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: 'au-syd.mybluemix.net'
+  name: 'cloud-flask'
+  host: 'cloud-flask'
+  disk_quota: 1024M
